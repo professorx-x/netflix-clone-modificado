@@ -1,0 +1,224 @@
+:root
+{
+	--vermelho: red;
+	--preto: black;
+}
+
+/**/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+ELEMENTOS BASE
+*/
+
+.container, .filme-principal .botoes
+{
+	margin-left: 2.5%;
+	width: 95%;
+}
+
+body
+{
+	background-color: var(--preto);
+	font-family: Arial, Times, Serif;
+	color: white;
+	position: relative;
+
+}
+
+header
+{
+	z-index: 1;
+}
+
+header .container
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo
+{
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 40px;
+}
+
+header nav a
+{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #aaa;
+}
+
+header nav a:hover
+{
+	color: #fff;
+}
+
+
+/*
+FILME PRINCIPAL
+*/
+
+main
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.filme-principal
+{
+	font-size: 16px;
+	/*
+	background-size: 60% 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),	url('../imagens/fundo.jpg');
+	*/
+	background-color: black;
+	width: 100%;
+	height: 400px;
+	
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.filme-principal-midias
+{
+	width: 60%;
+	height: 100%;
+	/*
+	float: right;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), blue );
+	*/
+	margin-left: 40%;	
+	
+
+}
+
+.filme-principal img
+{
+	width: 100%;
+	display: block;
+	transition: 0.5s all;
+	
+	/*
+	float: right;
+	margin-right: -40%;
+	z-index: 1;
+	*/
+}
+
+.filme-principal video
+{
+	display: none;
+	opacity: 1;
+	transition: .5s all;
+	/*
+	width: 100%;
+	*/
+	height: 100%;
+}
+
+.filme-principal-cobertura
+{
+	width: 100%;
+	height: 400px;
+	/*
+	background-color: rgba(0, 0, 0, 0.3);
+	*/
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) );
+	z-index: 10;
+	margin-top: -400px;
+}
+
+.filme-principal .container
+{
+	width: 60%;
+}	
+
+.filme-principal .descricao
+{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.titulo
+{
+	margin-top: 15%;
+	font-size: 40px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+}
+
+.filme-principal .botoes button
+{
+	
+	border: none;
+	padding: 15px 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color:  black;
+	margin-right: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: .5s ease all;
+}
+
+.filme-principal .botoes button:hover
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	color:  white;
+
+}	
+
+.botoes button i
+{
+	margin-right: 8px;
+}
+
+.box-filme
+{
+	height: 100%;
+	width:  100%;
+	display: block;
+}
+
+.owl-carousel .item, #carrocel .item
+{
+	height: auto;
+	overflow: hidden;
+
+}
+
+.carrossel-filmes
+{
+	margin-top: 15px;
+	margin-left: 2.5%;
+	width: 95%;
+}
+
+.box-filme
+{
+	display: block;
+	opacity: 1;	
+	transition: .5s all;
+}
+
+/*
+.item video
+{
+	display: none;
+	opacity: 1;
+	transition: .5s all;
+	width: 100%;
+}
+*/

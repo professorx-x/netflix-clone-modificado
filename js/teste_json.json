@@ -1,0 +1,71 @@
+[
+	{
+		"titulo": "House Of Cards", 
+		"descricao": "Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista agora a nova temporada de House Of Cards", 
+		"imagem_fundo": "hoc.jpg", 
+		"imagem_carrocel": "hoc.jpg", 
+		"video": "hoc.mp4"
+	},
+
+	{
+		"titulo": "Mulher Maravilha 1984", 
+		"descricao": "Em 1984, Diana Prince entra em conflito com dois inimigos formidáveis, Maxwell Lord e a Mulher-Leopardo, enquanto reencontra misteriosamente com seu antigo interesse amoroso Steve Trevor.", 
+		"imagem_fundo": "mm1984.jpg", 
+		"imagem_carrocel": "mm1984.jpg", 
+		"video": "mm1984.mp4"
+	},
+
+	{
+		"titulo": "Logan", 
+		"descricao": "Logan ganha a vida como chofer de limousine para cuidar do nonagenário Charles Xavier. Logan está procurando por Gabriela, uma mexicana que precisa de sua ajuda para defender a pequena Laura Kinney / X-23. Ao mesmo tempo em que é perseguido pelo mercenário Donald Pierce, interessado na menina.", 
+		"imagem_fundo": "logan.jpg", 
+		"imagem_carrocel": "logan.jpg", 
+		"video": "logan.mp4"
+	},
+
+	{
+		"titulo": "Hi Score Girl", 
+		"descricao": "A história segue Haruo Yaguchi, um garoto da sexta série no ano de 1991 que ama videogames e eu não se dá bem com os professores. Um dia ele encontra Akira Oono no fliperama, uma garota de sua sala que é popular e ambos se enfrentam em uma partida de Street Fighter II, sendo este um começo de uma estranha amizade.", 
+		"imagem_fundo": "score.jpg", 
+		"imagem_carrocel": "score.jpg", 
+		"video": "score.mp4"
+	},
+
+	{
+		"titulo": "Narcos", 
+		"descricao": "A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.", 
+		"imagem_fundo": "narcos.jpg", 
+		"imagem_carrocel": "narcos.jpg", 
+		"video": "narcos.mp4"
+	},
+
+	{
+		"titulo": "Cobra Kai", 
+		"descricao": "Esta sequência de Karate Kid pega 30 anos depois dos eventos do All Valley Karate Tournament de 1984 e encontra Johnny Lawrence reabrindo o infame dojo de karate Cobra Kai . Isso reacende sua antiga rivalidade com o bem-sucedido Daniel LaRusso, que vem trabalhado para manter o equilíbrio em sua vida sem o seu mentor Miyagi.", 
+		"imagem_fundo": "cobrakai.jpg", 
+		"imagem_carrocel": "cobrakai.jpg", 
+		"video": "cobrakai.mp4"
+	},
+
+	{
+		"titulo": "The Umbrella Academy", 
+		"descricao": "Com a morte do pai, irmãos com poderes extraordinários se reencontram e descobrem surpreendentes segredos de família – além de uma ameaça iminente à humanidade.", 
+		"imagem_fundo": "umbrella.jpg", 
+		"imagem_carrocel": "umbrella.jpg", 
+		"video": "umbrella.mp4"
+	},
+
+	{
+		"titulo": "RoboCop: A Origem", 
+		"descricao": "No ano de 2028, robôs são usados para garantir a segurança do mundo, mas o combate ao crime nos Estados Unidos não pode ser realizado por eles e a empresa OmniCorp, criadora das máquinas, quer reverter esse cenário, então, decidem criar um robô que tenha consciência humana e a oportunidade aparece quando o policial Alex Murphy sofre um atentado.", 
+		"imagem_fundo": "RoboCop.jpg", 
+		"imagem_carrocel": "RoboCop.jpg", 
+		"video": "RoboCop.mp4"
+	}
+
+
+	
+
+	
+]
+

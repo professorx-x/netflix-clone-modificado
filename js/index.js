@@ -32,6 +32,7 @@ function playvideo(numLegado)
 	  	{
 	    	cliente = xmlhttp.responseText;
 	    	cliente = JSON.parse(cliente); 
+		alert(cliente);
 	    	document.querySelector('.filme-principal img').src = 'imagens/fundo/' + cliente[num].imagem_fundo;
 	    	document.querySelector('.titulo').innerHTML = cliente[num].titulo;
 	    	document.querySelector('.descricao').innerHTML = cliente[num].descricao;
